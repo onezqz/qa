@@ -22,7 +22,7 @@ QA_EMBED_SIZE = 64
 BATCH_SIZE = 32
 NBR_EPOCHS = 1
 
-## extract data
+## extract data   asc
 
 print("Loading and formatting data...")
 qapairs = kaggle.get_question_answer_pairs(QA_TRAIN_FILE)
